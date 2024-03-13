@@ -2,37 +2,37 @@
 
   {
 
-    "proxySecret": "sk-123", // 接口请求密钥(PROXY_SECRET，可以理解为API KEY)
+    "proxySecret": "156926czMM", // 接口请求密钥(PROXY_SECRET，可以理解为API KEY)    
 
-    "cozeBotId": "12***************31", // 此处为与Coze Bot进行绑定的Discord机器人的ID
+    "cozeBotId": "1217346477102469242", // 此处为与Coze Bot进行绑定的Discord机器人的ID
 
-    "model": ["gpt-4","dalle-3"],  // 模型名称(数组格式，如果是使用的第三方平台,确保这里跟你第三方平台中使用的模型保持一致，注意大小写)
+    "model": ["gpt-4"],  // 模型名称(数组格式，如果是使用的第三方平台,确保这里跟你第三方平台中使用的模型保持一致，注意大小写)
 
-    "channelId": "12***************56"  //  [可选] discord频道ID(机器人必须在此频道所在的服务器)(目前版本下该参数仅用来活跃机器人)
-
-  },
-
-  {
-
-    "proxySecret": "sk-456",
-
-    "cozeBotId": "12***************64",
-
-    "model": ["gpt-4","gpt-4-16k"], 
-
-    "channelId": "12***************78"
+    "channelId": "1217377757839888398"  //  [可选] discord频道ID(机器人必须在此频道所在的服务器)(目前版本下该参数仅用来活跃机器人)
 
   },
 
   {
 
-    "proxySecret": "sk-789",
+    "proxySecret": "156926czMM",    // 回答消息的bot 2
 
-    "cozeBotId": "12***************12",
+    "cozeBotId": "1217411557668028416",
 
-    "model": ["gpt-3.5-turbo","gpt-4-128k"],
+    "model": ["gpt-4"], 
 
-    "channelId": "12***************24"
+    "channelId": "1217377757839888398"
+
+  },
+
+  {
+
+    "proxySecret": "156926czMM",    // new-wcy
+
+    "cozeBotId": "1217378741618085969",
+
+    "model": ["gpt-4"],
+
+    "channelId": "1217377757839888398"
 
   }
 
