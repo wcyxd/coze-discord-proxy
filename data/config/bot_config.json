@@ -26,6 +26,18 @@
 
   {
 
+    "proxySecret": "156926czMM",    // 回答消息的bot 3
+
+    "cozeBotId": "1217416607215783976",
+
+    "model": ["gpt-4"], 
+
+    "channelId": "1217377757839888398"
+
+  },
+
+  {
+
     "proxySecret": "156926czMM",    // new-wcy
 
     "cozeBotId": "1217378741618085969",
